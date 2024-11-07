@@ -1,0 +1,73 @@
+#include <iostream>
+ using namespace std;
+
+void displaymenu()  {
+cout << "Simple Calculator" << endl;
+cout << "1. Adition (+)" << endl;
+cout << "2. Subtraction (-)" << endl;
+cout << "3. Multiplicatin (*)" << endl;
+cout << "4. Division (/)" << endl;
+}
+double add(double a, double b) { 
+  return a + b;
+ } 
+double subtract(double a, double b) {
+  return a - b;
+ }
+ double multiply(double a, double b) {
+  return a * b;
+ }
+double divide(double a, double b) {
+  if (b == 0) {
+ throw invalid_argument(“division by zero not allowed.”):
+ }
+ Return a/b;
+}
+int main() {
+ double num1, num2; 
+char operation;
+bool running = true;
+
+while (running) {
+   displaymenu();
+int choice;
+cin>>choice;
+
+if (choose==5) {
+running== false;
+break;
+
+cout << "Enter the number: ";
+ cout >> num1 >> num2 ;
+
+try {
+switch (choice) {
+      case 1:
+      cout << " result " << add (num1, num2) << endl; 
+       break;
+       case 2:
+      cout << " result " << sub (num1, num2) << endl; 
+      break;
+       case 3:
+       cout << " result " << multiply (num1, num2) << endl; 
+      break;
+      case 4:
+       cout << " result " << divide (num1, num2) << endl; 
+       break;
+       deafult:
+        cout << " invalid input! “ << endl; 
+         break;
+     }
+ } catch (const invalid argument& e) {
+  Cout << e. what() << endl;
+ }
+}
+Cout << “calculator  closed.“<< endl;
+Return 0;
+}
+
+
+<!---
+Rubyverma386/Rubyverma386 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
