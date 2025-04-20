@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<htmt>
+<head>
+  <title>Restaurant Menu</title>
+  <style>
+    body {
+      background-image: url('https://img.freepik.com/premium-photo/black-food-background-vegetables-spices-black-background-top-view-free-space-your-text_187166-27580.jpg?w=740');
+      background-size: cover;
+      font-family: sans-serif;
+      color: white;
+      padding: 20px;
+    }
+    .menu {
+      background-color: rgba(0, 0, 0, 0.7);
+      border: 4px solid goldenrod;
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 800px;
+      margin: auto;
+    }
+  .logo {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 80px;
+    color: gold;
+    text-align: center; 
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 8px #000;
+    margin: 0;
+    padding: 10px 0;
+  }
+    h3 {
+      text-align: center;
+      color: #ffcc00;
+      font-size:35px;
+      font-family:Modern outdoor;
+      margin-top: 0;     
+      margin-bottom: 20px;
+    }
+    .section {
+      margin-bottom: 40px;
+      overflow: hidden;
+    }
+    .section img {
+      width: 150px;
+      height: 150px;
+      border: 3px solid white;
+      border-radius: 50%;
+      float: right;
+      margin-left: 20px;
+      margin-bottom: 10px;
+      object-fit: cover;
+    }
+    ul, ol {
+      padding-left: 20px;
+      margin: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .highlight {
+      color: #ffcc00;
+      margin-bottom: 10px;
+    }
+    .order-details {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 2px dashed #ffcc00;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+    .order-details h2 {
+      color: #ffcc00;
+      text-align: center;
+    }
+    .order-details p {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+    .order-details span {
+      color: #fff899;
+    }
+.desc {
+  font-size: 16px;
+  color: #00e6ac;
+  margin: 5px 0 15px 0;
+  font-style: italic;
+}
+  </style>
+</head>
+<body>
+<div class="menu">
+<div style="position: relative; text-align: center; margin-bottom: 20px;">
+  <h1 class="logo">The Yum Sheet</h1>
+  <img src="C:\Users\rubyv\Downloads\ChatGPT Image Apr 14, 2025, 03_54_31 PM.png"
+       style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); width: 120px; height: auto; border-radius: 12px;">
+</div>
+    <h3>Restaurant Menu</h3>
+
+    <div class="section">
+      <h2 class="highlight">🍛Main Course</h2>
+<p class="desc">Delicious and filling traditional Indian meals to satisfy your hunger cravings.</p>
+      <img src="https://img.freepik.com/premium-photo/indian-hindu-veg-thali-food-platter-selective-focus_466689-36019.jpg">
+      <img src="https://th.bing.com/th/id/OIP.yxy2yuZhOCB_2S4Jf3d6fQHaHa?w=1300&h=1300&rs=1&pid=ImgDetMain">
+      <img src="https://www.mygingergarlickitchen.com/wp-content/rich-markup-images/4x3/4x3-punjabi-chole-bhature-chana-bhatura.jpg">
+      <ol>
+        <li>Paneer Butter Masala - ₹150</li>
+        <li>Dal Tadka - ₹100</li>
+        <li>Chole Bhature - ₹150</li>
+        <li>Vegetable Kofta Curry - ₹150</li>
+        <li>Stuffed Capsicum - ₹80</li>
+      </ol>
+    </div>
+
+<div class="section" style="display: flex; align-items: center; flex-wrap: wrap;">
+<img src="https://cafecakeguru.com/wp-content/uploads/2021/06/Lava-Cake.jpg">
+  <div style="flex: 1; display: flex; gap: 10px; flex-direction: column;">
+    <img src="https://i.pinimg.com/originals/ef/17/7a/ef177a7cba11d67958c242d5955aa854.jpg">
+  
+  </div>
+
+  <div style="flex: 2;">
+    <h2 class="highlight">Desserts🧁</h2>
+<p class="desc">Sweeten your taste buds with our delightful and mouthwatering dessert selection.</p>
+    <ul>
+      <li>Gulab Jamun - ₹100</li>
+      <li>Rasmalai - ₹80</li>
+      <li>Fruit Custard - ₹50</li>
+      <li>Matka Kulfi - ₹80</li>
+      <li>Chocolate Lava Cake - ₹190</li>
+    </ul>
+  </div>
+</div>
+
+    <div class="section">
+      <h2 class="highlight">🥤Beverages</h2>
+<p class="desc">Chill and refresh with our cool and classic beverage collection.</p>
+      <img src="https://www.m9.news/wp-content/uploads/2024/01/Masala-Chai.jpg">
+      <img src="https://tandoorvietnam.com/wp-content/uploads/2020/06/Lemon-Soda-1024x1024.jpg">
+      <img src="https://www.deliciousmagazine.co.uk/wp-content/uploads/2014/01/Mojito-768x960.jpg">
+      <ol>
+        <li>Masala Chai - ₹50</li>
+        <li>Filter Coffee - ₹150</li>
+        <li>Fresh Lime Soda - ₹70</li>
+        <li>Lemon Tea - ₹70</li>
+        <li>Mojito Cooler - ₹170</li>
+      </ol>
+    </div>
+
+    <div class="order-details">
+      <h2>📦 Online Order Details</h2>
+      <p><strong>How to Order:</strong> Send your selected items on <span>WhatsApp: +123-456-7890</span> or call directly.</p>
+      <p><strong>Delivery Time:</strong> Approx. <span>30–45 minutes</span> within the city limits.</p>
+      <p><strong>Payment Options:</strong> UPI / Cash on Delivery / Paytm / Google Pay</p>
+      <p><strong>Minimum Order:</strong> ₹200 for free delivery</p>
+      <p><strong>📍 Location:</strong> Delivery available within 8 km radius</p>
+    </div>
+
+    <p style="text-align:center; color: lightgray;">📞 Order Now: +123-456-7890</p>
+  </div>
+
+</body>
+</html>
